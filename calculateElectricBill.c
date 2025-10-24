@@ -4,8 +4,25 @@
   */
 
 #include <stdio.h>
+//Function prototype
+float ElectricBill(int units); 
 
-//Funtion declaration
+// function call
+void main() {
+    int units;
+    float totalBill;
+
+    // Prompt the user to enter number of units consumed
+    printf("Enter the number of units consumed: ");
+    scanf("%d", &units);
+
+    
+    totalBill = ElectricBill(units);
+
+    printf("Total electricity bill = KSh. %.2f\n", totalBill);
+}
+
+// Function definition
 float ElectricBill(int units) {
     float bill;
 
@@ -20,18 +37,4 @@ float ElectricBill(int units) {
     }
 
     return bill;
-}
-
-int main() {
-	//Funtion call
-    int units;
-    float totalBill;
-   //Prompt the user to enter number of units consumed
-    printf("Enter the number of units consumed: ");
-    scanf("%d", &units);
-
-    totalBill = ElectricBill(units);
-    printf("Total electricity bill = KSh. %.2f\n", totalBill);
-
-    return 0;
 }
