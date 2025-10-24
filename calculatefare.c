@@ -1,3 +1,7 @@
+/*Name:MICHAEL NZIOKA
+  Reg:CT101/G/26528/25
+  Description:Calculatiom of fare covered per kilometre
+  */
 #include <stdio.h>
 
 // Function prototype
@@ -23,4 +27,5 @@ float calculateFare(float distance) {
     totalFare = distance * fareRate;
     return totalFare;
 }
+
 
