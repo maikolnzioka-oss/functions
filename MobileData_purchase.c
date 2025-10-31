@@ -1,3 +1,7 @@
+/*Name:MICHAEL NZIOKA
+  Reg:CT101/G/26528/25
+  */
+
 #include <stdio.h>
 
 int main() {
@@ -39,3 +43,4 @@ int main() {
 
     return 0;
 }
+
